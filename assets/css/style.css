@@ -1,51 +1,93 @@
 body{
-	background-image: url("../images/bkgd.jpg")
+	background-image: url("../images/bkgd.jpg");
 }
-div{
+.header{
 	background-color: #eee;
-	margin: 10px;
-	width: 25%
+	margin: auto;
+	margin-top: 10px;
+	width: 50%;
+	border: solid 2px rgb(152, 199, 253);
+	padding: 5px;
+	font-size: 30pt;
+	font-weight: bold;
+	text-align: center;
+
 }
-div{
+.instructions{
+	background-color: #eee;
+	margin: auto;
+	margin-top: 10px;
+	width: 50%;
+	border: solid 2px rgb(152, 199, 253);
+	padding: 5px;
+}
+.crystals{
+	background-color: #fff;
+	width: 50%;
+	height: 70px;
+	margin: auto;
+	margin-top: 10px;
+	border: solid 2px rgb(152, 199, 253);
+	padding: 5px;
+}
+.numberToReach{
+	background-color: #fff;
+	margin-top: 10px;
 	border: solid 2px rgb(152, 199, 253);
 	padding: 10px;
+	margin-right: 10px;
 }
-h1, h3, span{
+.userTotal{
+	background-color: #fff;
+	margin-top: 10px;
+	border: solid 2px rgb(152, 199, 253);
+	padding: 10px;
+	margin-right: 10px;
+
+}
+.wins{
+	background-color: #fff;
+	margin-top: 10px;
+	border: solid 2px rgb(152, 199, 253);
+	padding: 10px;
+	margin-left: 10px;
+
+}
+.losses{
+	background-color: #fff;
+	margin-top: 10px;
+	border: solid 2px rgb(152, 199, 253);
+	padding: 10px;
+	margin-left: 10px;
+
+}
+section{
+	float: left;
+	width: 37.5%;
+	margin-left: 25%;
+}
+aside{
+	float: right;
+	width: 12.5%;
+	margin-right: 25%;
+}
+h3, span{
 	font-weight: bold;
 	text-align: center;
 }
-h1{
-	font-size: 30pt;
-}
 ol{
 	list-style: decimal inside; 
+	text-align: justify;
 }
 ul {
 	list-style: disc inside;
 	text-indent: 20px;
 }
-div.header, div.gems{
-	background-color: #fff;
-	align-content: center;
-}
-div.header, div.instructions{
-	width: 50%;
-}
-.numberToMatch, .winsAndLosses{
-	float: left;
-	width: 25%;
-	height: 60px;
-}
-.userTotal{
-	width: 25%;
-	height: 60px;
-}
-.gems{
-	clear: both;
-}
 .gemImage{
 	height: 60px;
-	margin: 10px;
+	margin: auto;
+	padding-left: 15%;
+	align-items: center;
 }
 #blue{
 	color: #3092c7;
